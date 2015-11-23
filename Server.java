@@ -105,6 +105,7 @@ class ClientInstance extends Thread {
 			os.println("/join <name_chat_room> to enter a chat room");
 			os.println("/create <name_chat_room> to create a chat room");
 			os.println("/leave <name_chat_room> to leave the chat room");
+			os.println("/@<username> to send a private message to the user");
 			os.println("/quit to exit the chat application");
 			synchronized (this) {
 				for (int i = 0; i < maxClientsCount; i++) {
